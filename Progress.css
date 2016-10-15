@@ -1,0 +1,76 @@
+.cadreBleu{border: 2px solid #1c75c8;
+ padding: 3px;
+background-color: #c5ddf6; 
+-moz-border-radius-topleft: 5px; 
+-moz-border-radius-topright: 5px; 
+-moz-border-radius-bottomright: 5px; 
+-moz-border-radius-bottomleft: 5px;}
+
+.cadreJaune{border: 2px solid #B509DC;
+ padding: 3px;
+background-color:  #FFE305;
+-moz-border-radius-topleft: 5px; 
+-moz-border-radius-topright: 5px; 
+-moz-border-radius-bottomright: 5px; 
+-moz-border-radius-bottomleft: 5px;}
+
+.cadreBleuArrondi{padding:5px;
+ background-color:#9ba0ee; 
+ border:2px solid #656ab0; 
+ -moz-border-radius:9px; 
+ -khtml-border-radius:9px; 
+ -webkit-border-radius:9px; 
+ border-radius:9px; }
+ 
+.cadreDoubleOrange{padding:3px; 
+border:5px double #ff6b00; 
+background-color:#ffdbc1;}
+
+.cadreCinemaGris{padding:3px; 
+background-color:#888;
+padding:4px;
+border-top:8px dotted #fff;
+border-bottom:8px dotted #fff;}
+ 
+.cadreVertTwoBorders{padding:3px; 
+border:4px inset #4cdc67; 
+background-color:#4cdc67;}
+
+.cadreDashed{padding:3px; 
+border:2px dashed #82FA58;}
+
+.cadreJauneArrondi{padding:5px;
+ background-color: #FFE305; 
+ border:2px solid #656ab0; 
+ -moz-border-radius:9px; 
+ -khtml-border-radius:9px; 
+ -webkit-border-radius:9px; 
+ border-radius:9px; }
+ 
+ .background-suspended{
+	 background-image:url("Pict/back2.jpg");
+	background-repeat: repeat-x repeat-y;
+}
+
+.redFont{
+	color:red;
+}
+
+.background-project{
+	background-image:url("Pict/back4.jpg");
+	background-repeat: repeat-x repeat-y;
+}
+
+.yellowFont{
+	color:yellow;
+}
+
+.background-upcoming{
+	background-image:url("Pict/back5.jpg");
+	background-repeat: repeat-x repeat-y;
+}
+
+.myimg{
+	text-align:center;
+	}
+	
