@@ -1,0 +1,22 @@
+#SelectiveBloc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.imgSelect{
+    	width: 25%;
+	height:9%;
+	margin-right: 6%;
+	margin-top: 1%;
+}
+
+img{
+	width: 100%;
+	height:100%;
+}
+
+.imgSelect :hover{
+    opacity: 0.5;
+}
+
