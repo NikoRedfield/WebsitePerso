@@ -4,6 +4,11 @@
 	padding: 18px 10px 5px 0%;
 }
 
+@font-face { 
+    font-family: 'ClementineSketch';
+    src: url('fonts/learningcurvepro_regular_macroman/LearningCurve_OT-webfont.ttf') format('truetype');
+}
+
 .title1 {
 	margin: 1em 0 0.5em 0;
 	font-weight: 600;
@@ -18,12 +23,12 @@
 		inset 0 0 5px rgba(53,86,129, 0.5);
 		/*inset -285px 0 35px white;*/
 	border-radius: 0 10px 0 10px;
-	background: #fff url(Pict/Fotor0608174227.png) no-repeat center left;
+	background: #fff url(../Pict/Fotor0608174227.png) no-repeat center left;
 }
 
 .title2 { 
-	color: #d04764; 
-	font-family: 'Lobster', cursive; 
+	color: #ebf291;
+	font-family: 'ClementineSketch'; 
 	font-size: 36px; 
 	font-weight: normal; 
 	line-height: 48px; 
@@ -33,13 +38,13 @@
 	}
 
 .background-main{
-	background-image:url("Pict/back1.jpg");
+	background-image:url("../Pict/backgrounds/purple.jpg");
 	background-repeat: repeat-x repeat-y;
 	background-attachment:fixed;
 }
 
 .background-contact{
-	background-image:url("Pict/back3.jpg");
+	background-image:url("../Pict/backgrounds/purple.jpg");
 	background-repeat: repeat-x repeat-y;
 	background-attachment:fixed;
 }

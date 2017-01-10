@@ -1,3 +1,3 @@
 # WebsitePerso
 
-Small project related to the creation of a personal website.
+Small project related to the creation of a personal portfolio website.

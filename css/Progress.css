@@ -48,7 +48,7 @@ border:2px dashed #82FA58;}
  border-radius:9px; }
  
  .background-suspended{
-	 background-image:url("Pict/back2.jpg");
+	 background-image:url("../Pict/backgrounds/purple.jpg");
 	background-repeat: repeat-x repeat-y;
 }
 
@@ -57,7 +57,7 @@ border:2px dashed #82FA58;}
 }
 
 .background-project{
-	background-image:url("Pict/back4.jpg");
+	background-image:url("../Pict/backgrounds/purple.jpg");
 	background-repeat: repeat-x repeat-y;
 }
 
@@ -66,7 +66,7 @@ border:2px dashed #82FA58;}
 }
 
 .background-upcoming{
-	background-image:url("Pict/back5.jpg");
+	background-image:url("../Pict/back5.jpg");
 	background-repeat: repeat-x repeat-y;
 }
 
