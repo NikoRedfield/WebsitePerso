@@ -1,13 +1,43 @@
 
 .main-header{
 	text-align: center;
-	padding: 18px 10px 5px 0%;
+	padding: 2% 2% 2% 2%;
 }
 
-@font-face { 
-    font-family: 'ClementineSketch';
-    src: url('fonts/learningcurvepro_regular_macroman/LearningCurve_OT-webfont.ttf') format('truetype');
+header > img{
+    width:80%;
 }
+
+//font for titles
+@font-face {
+    font-family: 'preciousregular';
+    src: url('../fonts/precious/precious-webfont.woff2') format('woff2'),
+         url('../fonts/precious/precious-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+//font for small texts
+@font-face {
+    font-family: 'seshatregular';
+    src: url('../fonts/seshat/seshat-webfont.woff2') format('woff2'),
+         url('../fonts/seshat/seshat-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+//font for regular texts
+@font-face {
+    font-family: 'polyregular';
+    src: url('../fonts/poly/poly-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poly/poly-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 .title1 {
 	margin: 1em 0 0.5em 0;
@@ -28,8 +58,8 @@
 
 .title2 { 
 	color: #ebf291;
-	font-family: 'ClementineSketch'; 
-	font-size: 36px; 
+	font-family: 'preciousregular'; 
+	font-size: 48px; 
 	font-weight: normal; 
 	line-height: 48px; 
 	margin: 0 0 18px; 
@@ -69,3 +99,9 @@
 	text-shadow: 1px 0 0 #fff; 
 	text-align: center;
 	}
+        
+.main-text{
+    font-family: 'polyregular' ; 
+    font-size:18px;
+   // font-weight: bold;
+    }
