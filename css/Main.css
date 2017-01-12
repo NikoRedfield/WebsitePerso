@@ -8,7 +8,7 @@ header > img{
     width:80%;
 }
 
-//font for titles
+/*font for titles*/
 @font-face {
     font-family: 'preciousregular';
     src: url('../fonts/precious/precious-webfont.woff2') format('woff2'),
@@ -17,7 +17,7 @@ header > img{
     font-style: normal;
 }
 
-//font for small texts
+/*font for small texts*/
 @font-face {
     font-family: 'seshatregular';
     src: url('../fonts/seshat/seshat-webfont.woff2') format('woff2'),
@@ -28,7 +28,7 @@ header > img{
 }
 
 
-//font for regular texts
+/*font for regular texts*/
 @font-face {
     font-family: 'polyregular';
     src: url('../fonts/poly/poly-regular-webfont.woff2') format('woff2'),
@@ -65,6 +65,7 @@ header > img{
 	margin: 0 0 18px; 
 	text-shadow: 1px 0 0 #fff; 
 	text-decoration: underline;
+        text-align: center;
 	}
 
 .background-main{
@@ -73,11 +74,6 @@ header > img{
 	background-attachment:fixed;
 }
 
-.background-contact{
-	background-image:url("../Pict/backgrounds/purple.jpg");
-	background-repeat: repeat-x repeat-y;
-	background-attachment:fixed;
-}
 
 .title2-1{
 	color: #FCFF20; 
@@ -103,5 +99,5 @@ header > img{
 .main-text{
     font-family: 'polyregular' ; 
     font-size:18px;
-   // font-weight: bold;
+    font-weight: bold;
     }
