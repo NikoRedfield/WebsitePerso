@@ -101,3 +101,16 @@ header > img{
     font-size:18px;
     font-weight: bold;
     }
+    
+#custom_container{
+        border: yellow 5px solid;
+        border-radius:15px 50px 30px;
+        width:60%;
+        height: 150%;
+        background: #ffe4d8;
+       margin-left:20%;
+       margin-right:20%;
+       text-align: center;
+       padding-top: 1%;
+    }
+    
