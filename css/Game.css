@@ -16,3 +16,22 @@ img{
 	height:100%;
 	
 }
+
+.gameContent{
+    margin-left:2%;
+    margin-right:2%;
+}
+
+.cadreBleu{border: 2px solid #1c75c8;
+ padding: 3px;
+background-color: #c5ddf6; 
+-moz-border-radius-topleft: 5px; 
+-moz-border-radius-topright: 5px; 
+-moz-border-radius-bottomright: 5px; 
+-moz-border-radius-bottomleft: 5px;
+}
+
+
+.cadreDoubleOrange{padding:3px; 
+border:5px double #ff6b00; 
+background-color:#ffdbc1;}
