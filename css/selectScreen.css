@@ -1,12 +1,13 @@
 #SelectiveBloc{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     justify-content:space-around;
+   
 }
 
 .imgSelect{
-    	width: 25%;
-	height:9%;
+    	width: 35%;
+	height:360px;
 	margin-right: 6%;
 	margin-top: 1%;
 }
