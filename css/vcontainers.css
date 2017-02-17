@@ -1,0 +1,63 @@
+.cadreBleu{border: 2px solid #1c75c8;
+ padding: 3px;
+background-color: #c5ddf6; 
+-moz-border-radius-topleft: 5px; 
+-moz-border-radius-topright: 5px; 
+-moz-border-radius-bottomright: 5px; 
+-moz-border-radius-bottomleft: 5px;
+margin-left:25%;
+margin-right:25%;}
+
+
+
+.cadreBleuArrondi{padding:5px;
+ background-color:#9ba0ee; 
+ border:2px solid #656ab0; 
+ -moz-border-radius:9px; 
+ -khtml-border-radius:9px; 
+ -webkit-border-radius:9px; 
+ border-radius:9px; 
+margin-left:25%;
+margin-right:25%;}
+ 
+.cadreDoubleOrange{padding:3px; 
+border:5px double #ff6b00; 
+background-color:#ffdbc1;
+margin-left:25%;
+margin-right:25%;}
+
+.cadreCinemaGris{padding:3px; 
+background-color:#f49d41;
+padding:4px;
+border-top:8px dotted #4286f4;
+border-bottom:8px dotted #4286f4;
+border-radius: 10px 10px 10px 10px;
+margin-left:25%;
+margin-right:25%;
+}
+ 
+.cadreVertTwoBorders{padding:3px; 
+border:4px inset #4cdc67; 
+background-color:#4cdc67;
+margin-left:25%;
+margin-right:25%;}
+
+
+.redFont{
+	color:red;
+}
+
+.background-project{
+	background-image:url("../Pict/backgrounds/purple.jpg");
+	background-repeat: repeat-x repeat-y;
+}
+
+.yellowFont{
+	color:yellow;
+}
+
+
+.myimg{
+	text-align:center;
+	}
+	
