@@ -15,11 +15,20 @@ header > img{
    border-radius:  4px 6px 4px 6px;
 }
 
-/*font for titles*/
+/*font for titles  -- deprecated*/
 @font-face {
     font-family: 'preciousregular';
     src: url('../fonts/precious/precious-webfont.woff2') format('woff2'),
          url('../fonts/precious/precious-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*font for titles*/
+@font-face {
+    font-family: 'blackChancery';
+    src: url('../fonts/blackChancery/blkchcry-webfont.woff2') format('woff2'),
+         url('../fonts/blackChancery/blkchcry-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -65,13 +74,13 @@ header > img{
 
 .title2 { 
 	color: #ebf291;
-	font-family: 'preciousregular'; 
+	font-family: 'blackChancery'; 
 	font-size: 48px; 
 	font-weight: normal; 
 	line-height: 48px; 
 	margin: 0 0 18px; 
 	text-shadow: 1px 0 0 #fff; 
-	text-decoration: underline;
+	/*text-decoration: underline;*/
         text-align: center;
 	}
 
