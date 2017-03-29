@@ -35,3 +35,17 @@ background-color: #c5ddf6;
 .cadreDoubleOrange{padding:3px; 
 border:5px double #ff6b00; 
 background-color:#ffdbc1;}
+
+
+.cadreCinemaGris{padding:3px; 
+background-color:#f49d41;
+padding:4px;
+border-top:8px dotted #4286f4;
+border-bottom:8px dotted #4286f4;
+border-radius: 10px 10px 10px 10px;
+}
+
+.cadreVertTwoBorders{padding:3px; 
+border:4px inset #4cdc67; 
+background-color:#4cdc67;
+}
