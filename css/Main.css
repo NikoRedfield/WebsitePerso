@@ -135,17 +135,18 @@ header > img{
         margin-left:30%; 
         margin-right:30%;
         width:40%;
-        border-radius:15px;
+        border-radius:17px;
         padding-left: 2%;
         padding-right: 2%;
-        font-size: 50px;
-        background-color: blue;
+        font-size: 20px;
+        background-color: #dae2ef;
+        
     }
-
-    .barre_navigation li{
-        padding-left: 3%;
-        padding-right: 3%;
+    
+       .nav_item{
         font-size: 22px;
+        margin-left:5%;
+        text-align: center;
     }
     
     footer{
@@ -157,5 +158,6 @@ header > img{
     }
     
     .slides_pict{
-        height: 20%;
+        height: 10%;
     }
+    
