@@ -92,6 +92,7 @@ header > img{
 	background-image:url("../Pict/backgrounds/poly_orange.jpg");
 	background-repeat: repeat-x repeat-y;
 	background-attachment:fixed;
+        background-size: contain;
 }
 
 
