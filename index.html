@@ -11,13 +11,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/Main.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Paytone+One" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  
 </head>
 
 <body class="background-main">
 
+    <a href="index.html"> <img src="Pict/FrenchFlag.png" width="50" style="margin:0; line-height: 0; padding: 0;"/>    </a>
+  <a href="English/index.html"><img src="Pict/English.png" width ="50" style="margin:0; line-height: 0; padding:0;"/> </a>
+
 <header class="main-header" role="banner">
-  <img src="Pict/Banniere4.png" alt="Banner Image"/>
+  <img src="Pict/BannerAloy..jpeg" alt="Banner Image"/>
 </header>
 
 
@@ -26,15 +32,9 @@
 <!--Barre De Navigation-->
 <div class="w3-bar w3-light-grey barre_navigation">
   <a class="w3-bar-item w3-button w3-hover-red w3-mobile nav_item" href="index.html">Accueil</a>
-  <div class="w3-dropdown-hover w3-mobile nav_item">
-  <button class="w3-button w3-hover-blue" onClick="location.href='projects.html'" type="button"> Portfolio </button>
-    <div class="w3-dropdown-content w3-white w3-bar-block w3-card-4" style="width:15%">
-      <a class = "w3-hover-green w3-bar-item w3-button " href="Games.html" >Jeux Video</a>
-      <a class = "w3-hover-green w3-bar-item w3-button  " href="dev.html">D&eacute;veloppement</a>
-      <a class = "w3-hover-green w3-bar-item w3-button  " href="Crea.html">Art</a>
-    </div></div>
-  <a class="w3-hover-purple w3-bar-item  w3-button w3-mobile nav_item" href="Documents/CV.pdf">CV</a>
-  <a class="w3-hover-teal w3-bar-item  w3-button w3-mobile nav_item" href="Contact.html">Contact</a>
+  <a class="w3-bar-item w3-button w3-hover-blue w3-mobile nav_item" href="Games.html">Portfolio</a>
+  <a class="w3-hover-orange w3-hover-text-white w3-bar-item  w3-button w3-mobile nav_item" href="Documents/CV.pdf">CV</a>
+  <a class="w3-hover-green w3-bar-item  w3-button w3-mobile nav_item" href="Contact.html">Contact</a>
 </div>
 
 
@@ -43,38 +43,63 @@
 <br>
 <br>
 
-<h2 class="title2">Bienvenue</h2>
+<h2 class="title2-1" style="text-align: center; font-size : 48px;">Bienvenue</h2>
 
 <br>
-<br>
+
 
 <div id="custom_container" class="main-text">   
-    <p> Bienvenue, sur mon portfolio personnel!<br> Vous y retrouverez l'ensemble de mes projets et notamment du développement de jeux vidéo ! <br>
-        Je me présente, Nicolas GOLIARD, jeune game designer en herbe, qui tente sans cesse de s'améliorer dans ces domaines. Titulaire d'une license d'informatique,
-        je développe actuellement des jeux sur mon temps libre en attendant de conclure mes études par l'obtention d'un master en gestion et production de jeux vidéo.<br>
+    <p> Etudiant en Master MAJE (Management des projet innovants en jeux vidéo), je suis passioné par la création de jeux et souhaite faire carrière dans cet univers aussi pluridisciplinaire qu'enrichissant.
+        <br>
+        Je suis actuellement le Lead Programmeur sur le projet Sous Tensions, un serious game ludique sur le burn-out à base de survival horror.<br>
        Bonne navigation!</p>
 </div>
 
 <br>
 <br>
 
+<h2 class ="title2-1" style = "text-decoration: underline; margin-left : 10%">Mes derniers projets </h2>
+<div class="containerProjects">
+    
+<figure>
+    <a href = "SousTensions.html"><img src="Games\SousTensions\artwork.jpg"  width="300" height="242"/></a>
+    <figcaption> <a href = "SousTensions.html"> Sous Tensions </a></figcaption>
+</figure>
+    
+<figure>
+     <a href = "SimpleMind.html"><img src="Games\SimpleMind\Screenshots\Menu.jpg" width="300" height="242"/></a>
+    <figcaption><a href = "SimpleMind.html">Simple Mind </a></figcaption>
+</figure>   
+    
+<figure>
+     <a href = "SleepyWaves.html"><img src="Games\SleepyWaves\Screenshots\Banner.jpg" width="300" height="242"/></a>
+    <figcaption><a href = "SleepyWaves.html">Sleepy Waves </a></figcaption>
+</figure>    
+    
+</div>
 
-<!--Slideshow with Links-->
+
+
+<!--Slideshow with Links
 <h2 class="title2">News</h2>
 
 <div id="custom_container">
 
 <div class="w3-content w3-section" style="width:500px">
-  <a href="Games.html"><img class="mySlides" src="Games/FantasyCristal/Screenshots/FantasyCrystal1.png" style="width:500px;"></a>
+  <a href="Games.html"> SimpleMind<img class="mySlides" src="Games/SimpleMind/Screenshots/Shrine.jpg" alt="SimpleMind Screenshot" style="width:500px;"></a>
   <a href="Games.html"><img class="mySlides" src="Games/IntraLana/Screenshots/IntraLana1.png" style="width:500px"></a>
   <div style="height:5%">
       <a href="Games.html"><img class="mySlides" src="Games/AcrossTheNight/AcrossTheNightIcon.png" style="width:500px;"></a>
   </div>
 </div>
 
+
+
 <br />
 <br />
 
+
+-->
 
 <script>
 var myIndex = 0;
@@ -95,7 +120,6 @@ function carousel() {
 
 
 
-</div>
 
 <br />
 <br />

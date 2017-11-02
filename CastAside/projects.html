@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
 <head>
   <title>Nicolas Goliard, le jeu dans tous ses &eacute;tats !</title>
@@ -15,7 +11,7 @@ and open the template in the editor.
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/Main.css">
-  <link rel="stylesheet" type="text/css" href="css/vcontainers.css">
+  <link rel="stylesheet" type="text/css" href="css/selectScreen.css">
 </head>
 <body class="background-main">
 
@@ -33,31 +29,43 @@ and open the template in the editor.
   <button class="w3-button w3-hover-blue" onClick="location.href='projects.html'" type="button"> Portfolio </button>
     <div class="w3-dropdown-content w3-white w3-bar-block w3-card-4" style="width:15%">
       <a class = "w3-hover-green w3-bar-item w3-button " href="Games.html" >Jeux Video</a>
-      <a class = "w3-hover-green w3-bar-item w3-button  " href="dev.html">D&eacute;veloppement</a>
       <a class = "w3-hover-green w3-bar-item w3-button  " href="Crea.html">Art</a>
     </div></div>
-  <a class="w3-hover-purple w3-bar-item  w3-button w3-mobile nav_item" href="cv.html">CV</a>
+  <a class="w3-hover-purple w3-bar-item  w3-button w3-mobile nav_item" href="Documents/CV.pdf">CV</a>
   <a class="w3-hover-teal w3-bar-item  w3-button w3-mobile nav_item" href="Contact.html">Contact</a>
 </div>
->
+
 
 <br>
 <br>
 
 
-
-<div class="cadreVertTwoBorders">
-    <h2 class="title2"> Telecharger Mon CV : 
-        <a href="Documents/CV.pdf">
-            <img src="Pict/pdf.png" alt="pdf_icon"/>
+<div id="SelectiveBloc">
+    
+     <div class="imgSelect">
+        <a href="Games.html">
+            <img src="Pict/demo.jpg" alt="games_icon"/> 
+            <div class="overlay">
+                <div class="text"> Jeux Video </div>
+            </div>
         </a>
-    </h2>
+    </div>
+    
+  
+    
+    <div class="imgSelect">
+        <a href="Crea.html" ><img src="Pict/Art/Gaige_colored.png" alt="art_icon"/> 
+        <div class="overlay">
+                <div class="text"> Art </div>
+            </div>
+        </a>
+    </div>
+    
 </div>
 
-<div class="cadreDashed">
-    <br>
-    <br>
-</div>
+<br>
+<br>
+
 
 
 <footer>
@@ -66,5 +74,6 @@ and open the template in the editor.
     </div>
 </footer>
 
-</body>
+
+    </body>
 </html>

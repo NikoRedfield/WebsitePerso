@@ -1,7 +1,9 @@
 
 .main-header{
 	text-align: center;
-	padding: 2% 2% 2% 2%;  
+	padding: 0 2% 2% 2%; 
+        margin-top:0;
+        
 }
 
 
@@ -55,6 +57,8 @@ header > img{
 }
 
 
+
+
 .title1 {
 	margin: 1em 0 0.5em 0;
 	font-weight: 600;
@@ -85,7 +89,7 @@ header > img{
 	}
 
 .background-main{
-	background-image:url("../Pict/backgrounds/purple.jpg");
+	background-image:url("../Pict/backgrounds/poly_orange.jpg");
 	background-repeat: repeat-x repeat-y;
 	background-attachment:fixed;
 }
@@ -98,7 +102,7 @@ header > img{
 	font-weight: normal; 
 	line-height: 48px; 
 	margin: 0 0 18px; 
-	text-shadow: 1px 0 0 #fff; 
+	text-shadow: 2px 2px 2px black, -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black; 
 	}
 	
 .title3{
@@ -119,15 +123,16 @@ header > img{
     }
     
 #custom_container{
-        border: yellow 5px solid;
+        border: #1aa3ff 5px solid;
         border-radius:15px 50px 30px;
         width:60%;
         height: 150%;
-        background: #ffe4d8;
+        background: #ffe6c9;
        margin-left:20%;
        margin-right:20%;
        text-align: center;
        padding-top: 1%;
+       
     }
     
  
@@ -140,10 +145,28 @@ header > img{
         padding-right: 2%;
         font-size: 20px;
         background-color: #dae2ef;
-        
+        border-color: #1aa3ff;
+        border-style : solid;
+        box-shadow: 2px 5px 5px black;
+        border-width : thick;
+    }
+       .barre_navigation_en{
+        margin-left:28%; 
+        margin-right:28%;
+        width:46%;
+        border-radius:17px;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 20px;
+        background-color: #dae2ef;
+        border-color: #1aa3ff;
+        border-style : solid;
+        box-shadow: 2px 5px 5px black;
+        border-width : thick;
     }
     
        .nav_item{
+        font-family: 'Paytone One', sans-serif;
         font-size: 22px;
         margin-left:5%;
         text-align: center;
@@ -160,4 +183,36 @@ header > img{
     .slides_pict{
         height: 10%;
     }
+    
+    h2.style{
+	font-family: 'Lobster', cursive;
+	display: block;
+	font-size: 34px;
+	background: #1aa3ff;
+	padding: 15px;
+	color: #ffffff;
+	margin: 4% 0;
+}
+
+.containerProjects{
+    display:flex;
+    justify-content: center;
+}
+
+
+  
+ figcaption{
+    margin-top : 5%;
+    text-align : center;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 4% 0;
+}
+
+figcaption > a:hover{
+    color : #1d67f9;
+}
+
+
     
