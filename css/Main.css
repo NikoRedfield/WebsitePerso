@@ -14,7 +14,7 @@ header > img{
    -webkit-box-shadow: 0px 0px 8px #ffffff; 
    -ms-box-shadow: 0px 0px 8px #ffffff;
    -o-box-shadow: 0px 0px 8px #ffffff; 
-   border-radius:  4px 6px 4px 6px;
+   border-radius:  6px 8px 6px 8px;
 }
 
 /*font for titles  -- deprecated*/
@@ -89,7 +89,7 @@ header > img{
 	}
 
 .background-main{
-	background-image:url("../Pict/backgrounds/poly_orange.jpg");
+	background-image:url("../Pict/backgrounds/poly_orange2.jpg");
 	background-repeat: repeat-x repeat-y;
 	background-attachment:fixed;
         background-size: contain;
@@ -209,11 +209,22 @@ header > img{
     font-size: 24px;
     color: #ffffff;
     margin: 4% 0;
+    text-shadow: 2px 2px 2px #000000, -2px 0 0 #000000, 0 -2px 0 #000000, 1px 1px 0 #000000;
 }
 
 figcaption > a:hover{
     color : #1d67f9;
 }
 
+.creditDesign{
+    text-align: right;
+}
 
     
+.borderShadow{
+        box-shadow: 0px 0px 8px #ffffff; 
+   -webkit-box-shadow: 0px 0px 8px #ffffff; 
+   -ms-box-shadow: 0px 0px 8px #ffffff;
+   -o-box-shadow: 0px 0px 8px #ffffff; 
+   border-radius:  6px 8px 6px 8px;
+}
