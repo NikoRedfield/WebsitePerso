@@ -7,9 +7,7 @@
 }
 
 
-header > img{
-    width:60%;
-    height: 150px;
+header > a > img{
     box-shadow: 0px 0px 8px #ffffff; 
    -webkit-box-shadow: 0px 0px 8px #ffffff; 
    -ms-box-shadow: 0px 0px 8px #ffffff;
@@ -76,35 +74,25 @@ header > img{
 	background: #fff url(../Pict/Fotor0608174227.png) no-repeat center left;
 }
 
-.title2 { 
-	color: #ebf291;
-	font-family: 'blackChancery'; 
-	font-size: 48px; 
-	font-weight: normal; 
-	line-height: 48px; 
-	margin: 0 0 18px; 
-	text-shadow: 1px 0 0 #fff; 
-	/*text-decoration: underline;*/
-        text-align: center;
-	}
-
-.background-main{
-	background-image:url("../Pict/backgrounds/poly_orange2.jpg");
-	background-repeat: repeat-x repeat-y;
-	background-attachment:fixed;
-        background-size: contain;
-}
-
-
-.title2-1{
+.title2-1 { 
 	color: #FCFF20; 
-	font-family: 'Lobster', cursive; 
+	font-family: 'Paytone One', cursive; 
 	font-size: 36px; 
 	font-weight: normal; 
 	line-height: 48px; 
 	margin: 0 0 18px; 
 	text-shadow: 2px 2px 2px black, -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black; 
 	}
+
+.background-main{
+	background-image:url("../Pict/backgrounds/purple.png");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+        background-size : auto;
+}
+
+
+
 	
 .title3{
 	color: #DF0101; 
@@ -124,11 +112,11 @@ header > img{
     }
     
 #custom_container{
-        border: #1aa3ff 5px solid;
+        border: #3d46ff 5px solid;
         border-radius:15px 50px 30px;
         width:60%;
         height: 150%;
-        background: #ffe6c9;
+        background:#ffe7ce;
        margin-left:20%;
        margin-right:20%;
        text-align: center;
@@ -138,13 +126,12 @@ header > img{
     
  
     .barre_navigation{
-        margin-left:30%; 
-        margin-right:30%;
-        width:40%;
+        margin-left:32%; /*25%*/
+        margin-right:32%;  /*25%*/
+        width:35%;  /*50%;*/
         border-radius:17px;
-        padding-left: 2%;
-        padding-right: 2%;
-        font-size: 20px;
+   
+        font-size: 5%;
         background-color: #dae2ef;
         border-color: #1aa3ff;
         border-style : solid;
@@ -152,13 +139,12 @@ header > img{
         border-width : thick;
     }
        .barre_navigation_en{
-        margin-left:28%; 
-        margin-right:28%;
-        width:46%;
+        margin-left:30%; /*25%;*/
+        margin-right:30%; /*25%;*/
+        width:40%; /*50%;*/
         border-radius:17px;
-        padding-left: 2%;
-        padding-right: 2%;
-        font-size: 20px;
+      
+     
         background-color: #dae2ef;
         border-color: #1aa3ff;
         border-style : solid;
@@ -195,10 +181,6 @@ header > img{
 	margin: 4% 0;
 }
 
-.containerProjects{
-    display:flex;
-    justify-content: center;
-}
 
 
   
@@ -227,4 +209,8 @@ figcaption > a:hover{
    -ms-box-shadow: 0px 0px 8px #ffffff;
    -o-box-shadow: 0px 0px 8px #ffffff; 
    border-radius:  6px 8px 6px 8px;
+}
+
+.social_icon{
+    width : 4%;
 }

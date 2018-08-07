@@ -5,26 +5,28 @@
 }
 
 .screenshots{
-	width: 27%;
+	width: 17%;
 	height:9%;
 	margin-right: 6%;
 	margin-top: 1%;
 }
-
+/*
 img{
 	width: 100%;
 	height:100%;
 	
-}
+}*/
 
 .gameContent{
-    margin-left:12%;
-    margin-right:12%;
+    margin-left:10%;
+    margin-right:10%;
 }
 
-.cadreBleu{border: 2px solid #1c75c8;
+.cadreBleu{
+ border: 5px solid #1061e5;
+ border-radius: 2%;
  padding: 3px;
-background-color: #c5ddf6; 
+background: linear-gradient(to bottom right, rgb(124, 220, 255), rgb(40, 122, 255));
 -moz-border-radius-topleft: 5px; 
 -moz-border-radius-topright: 5px; 
 -moz-border-radius-bottomright: 5px; 
@@ -32,18 +34,14 @@ background-color: #c5ddf6;
 }
 
 
-.cadreDoubleOrange{padding:3px; 
-border:5px double #ff6b00; 
-background-color:#ffdbc1;}
-
-
-.cadreCinemaGris{padding:3px; 
-background-color:#f49d41;
-padding:4px;
-border-top:8px dotted #4286f4;
-border-bottom:8px dotted #4286f4;
-border-radius: 10px 10px 10px 10px;
+.cadreDoubleOrange{
+    padding:3px; 
+    border:5px double #ff6b00; 
+    background:linear-gradient(to bottom right, rgb(247, 206, 168), rgb(242, 150, 70));
+     border-radius: 2%;
 }
+
+
 
 .cadreVertTwoBorders{padding:3px; 
 border:4px inset #4cdc67; 
